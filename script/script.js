@@ -60,8 +60,8 @@ todo.addEventListener('contextmenu', function(event){
 
             if(event.ctrlKey || event.metaKey){
                 todoList.splice(i, 1);
-            /*}else{
-                item.important = !item.important; */
+            }else{
+                item.important = !item.important; 
             }
 
         displayMessages();
